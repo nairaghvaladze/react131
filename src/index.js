@@ -13,7 +13,7 @@ class App extends React.Component{
            <BrowserRouter>          
            <Routes>
            
-            <Route index path="/" element={<Layout />} /> 
+            <Route  path="/" element={<Layout />} /> 
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
            </Routes>
